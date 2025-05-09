@@ -38,4 +38,4 @@ jobs:
           LTD_PASSWORD: ${{ secrets.LTD_PASSWORD }}
           LTD_USERNAME: ${{ secrets.LTD_USERNAME }}
         run: |
-          lander --upload --pdf DMTN-314.pdf --lsstdoc DMTN-314.tex --ltd-product dmtn-314
+          lander --upload --pdf DMTN-314.pdf --author "Sophie Reed" --lsstdoc DMTN-314.tex --ltd-product dmtn-314
